@@ -8,6 +8,35 @@ import StoreMap from "./components/StoreMap.vue";
 import ChatBot from "./components/ChatBot.vue";
 import Footer from "./components/Footer.vue";
 import { ref } from "vue";
+import { useHead } from "@vueuse/head";
+
+useHead({
+  title: "Chinnadurai Stores - Grocery in Kalveerampalayam",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Best grocery store in Kalveerampalayam, Coimbatore. Fresh vegetables, rice, dal, and essentials.",
+    },
+    {
+      name: "keywords",
+      content:
+        "grocery store coimbatore, rice, dal, vegetables, chinnadurai store, tamil nadu, fresh groceries, online grocery, kalveerampalayam",
+    },
+    { name: "author", content: "nitheeshmk5" },
+    { property: "og:title", content: "Chinnadurai Stores" },
+    {
+      property: "og:description",
+      content:
+        "Buy fresh groceries and home essentials in Kalveerampalayam, Coimbatore.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:image", content: "/Home.jpg" },
+    { name: "twitter:card", content: "summary_large_image" },
+  ],
+  link: [{ rel: "canonical", href: "https://chinnadurai-stores.netlify.app/" }],
+});
+
 const isTamil = ref(true);
 </script>
 
