@@ -4,7 +4,7 @@ Welcome to the official website source code of **Chinnadurai Stores**, a local g
 
 ## 🌐 Live
 
-click here to visit the live site : [Chinnadurai Stores](https://chinnadurai-stores.vercel.app/)
+click here to visit the live site : [Chinnadurai Stores](https://chinnadurai-stores.netlify.app/)
 
 ## 📸 Preview
 
